@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究型子知识库工作流"
+  short_description: "按需构建、持续维护、系统审计或修复证据可追溯的科研知识库"
+  default_prompt: "使用 $build-research-knowledge-base 为这个研究主题建立一个范围明确、证据可追溯且便于持续维护的知识库。"
