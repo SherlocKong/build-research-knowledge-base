@@ -87,7 +87,9 @@ python3 ~/.codex/skills/build-research-knowledge-base/scripts/init_research_kb.p
 - 默认优先使用 Codex 内置搜索；AnySearch 为按需补充渠道。
 - [subskill-routing.md](build-research-knowledge-base/references/subskill-routing.md) 中列出的学术 skills 是可选集成，按当前环境能力选用。
 
-配套 Zotero 插件另行发布。这个版本可以独立完成知识库组织、模板初始化和结构检查。
+可选配套插件 [Folder Sync for Zotero](https://github.com/SherlocKong/zotero-folder-sync) 提供多目录映射与标准 `raw/papers` 知识库模式。配置知识库根与 Zotero 目标分类后，按预览计划建立文件链接；单篇导入和批量扫描遵循同一套目录归属规则。安装、迁移与 CLI 用法见[插件说明](https://github.com/SherlocKong/zotero-folder-sync#readme)。
+
+本 skill 可以独立完成知识库组织、模板初始化和结构检查。
 
 ## 检查工具
 
